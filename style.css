@@ -98,7 +98,7 @@ form {
 	}
 }
 
-@media(min-width: 751px) {
+@media(min-width: 751px and max-width: 1500px) {
 	h2 {
 		margin-top: 30%;
 		font-size: 45px;
