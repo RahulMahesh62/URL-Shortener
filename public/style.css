@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: auto;
+	background-color: #2d3436;
+}
+
+.main-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-family: 'Itim', cursive;
+	margin-top: 5%;
+	font-size: 80px;
+	margin: 30px auto;
+	margin-bottom: 10%;
+	padding: 15px;
+	color: #ffffff;
+}
+
+#reshead {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+
+#result {
+	font-size: 35px;
+}
+
+h3, h4 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Itim', cursive;
+	font-size: 20px;
+	margin: 10px auto;
+	padding: 5px;
+	color: #ffffff;
+}
+
+form { 
+	/* background-color: peru; */
+}
+
+#url {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px auto;
+	height: 40px;
+	width: 500px;
+	border-radius: 55px;
+	border-color: #ffffff;
+	padding: 5px;
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+	-webkit-border-radius: 55px;
+	-moz-border-radius: 55px;
+	-ms-border-radius: 55px;
+	-o-border-radius: 55px;
+}
+
+#submit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+	padding: 5px 10px;
+	height: 45px;
+	width: 140px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	background-color: #218c74;
+	border-width: 20px;
+	border-radius: 50px;
+	border-style: none;
+	border-color: #218c74;
+	color: #ffffff;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+#submit:hover {
+	background-color: #f53b57;
+	border-color: #f53b57;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media(max-width: 750px) {
+	h2 {
+		margin-top: 30%;
+		font-size: 45px;
+	}
+	.main-box {
+		margin-top: 150px;
+	}
+	#url {
+		height: 40px;
+		width: 275px;
+	}
+	#submit {
+		height: 40px;
+		width: 120px;
+	}
+	#result {
+		font-size: 20px;
+	}
+}
+
+@media(min-width: 751px and max-width: 1500px) {
+	h2 {
+		margin-top: 30%;
+		font-size: 45px;
+	}
+	.main-box {
+		margin-top: 150px;
+	}
+	#url {
+		height: 50px;
+		width: 375px;
+	}
+	#submit {
+		height: 50px;
+		width: 160px;
+	}
+	#result {
+		font-size: 35px;
+	}
+}
