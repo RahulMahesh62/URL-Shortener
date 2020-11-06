@@ -3,6 +3,7 @@ var shorturl = require('shorturl');
 var TinyURL = require('tinyurl');
 var ejs = require("ejs");
 const bodyParser = require("body-parser");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.set('view engine', 'ejs');
@@ -28,6 +29,6 @@ app.post("/", function(req, res) {
 	});
 });
 
-app.listen(4000,()=> {
+app.listen(PORT, () => {
 	console.log("Server Started");
 });
